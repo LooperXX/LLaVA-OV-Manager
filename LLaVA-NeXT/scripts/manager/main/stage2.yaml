@@ -1,0 +1,203 @@
+datasets:
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/llava_next_fit_mix_filtered_text_wild_738590.json # released in lmms-lab/LLaVA-NeXT-Data
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/llavar_gpt4_20k.json
+    sampling_strategy: "all"
+  # - json_path: ~/data/LLaVA-OV-Manager/stage2/json/sroie_data_33626.json
+  #   sampling_strategy: "first:10%"
+  # - json_path: ~/data/LLaVA-OV-Manager/stage2/json/orand_car_a_train_2009.json
+  #   sampling_strategy: "all"
+  # - json_path: ~/data/LLaVA-OV-Manager/stage2/json/orand_car_b_train_3000.json
+  #   sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/mavis_math_metagen_87358.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/mavis_math_rule_geo_100000.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/chrome_writting_train_8835.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/k12_printing_train_256646.json
+    sampling_strategy: "first:1%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/iiit5k_annotations_2000.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/hme100k_train_clean_74502.json
+    sampling_strategy: "first:10%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/ai2d_azuregpt_detailed_understanding_4874.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/infographic_vqa_4404_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/infographic_azuregpt4v_1992.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/lrv_chart_1787.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/lrv_normal_gpt4v_filtered_10500_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/scienceqa_nona_context_19218.json
+    sampling_strategy: "first:5%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/allava_instruct_vflan4v_20000.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/allava_instruct_laion4v_50000.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/textocr_gpt4v_train_converted_25114.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/ai2d_train_internvl_single_12413.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/textcaps_train_21952.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/ureader_qa_sft.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/ureader_cap_sft.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/ureader_ie_sft.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/ureader_kg_sft.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/vision_flan_filtered_186070.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/mathqa_29837.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/geo3k_2101.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/geo170k_qa_converted_67833.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/geo170k_align_converted_60252.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/sharegpt4v-coco-50k.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/sharegpt4v-knowledge-2k.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/sharegpt4v-llava-30k.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/sharegpt4v-sam-20k.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_CLEVR-Math_5290.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_FigureQA_17597.json
+    sampling_strategy: "first:10%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_Geometry3K_9734.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_GeoQA+_17172.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_GEOS_508.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_IconQA_22599.json
+    sampling_strategy: "first:5%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_MapQA_5235.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_PMC-VQA_35958.json
+    sampling_strategy: "first:5%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_Super-CLEVR_8652.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_TabMWP_22462.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_TQA_10181.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_UniGeo_11959.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_VizWiz_6614.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_VQA-AS_5907.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_VQA-RAD_2130.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/Evol-Instruct-GPT4-Turbo-143000.json
+    sampling_strategy: "first:30%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/magpie_pro_qwen2_72b_st_300000_sp_token_fltd_299992.json
+    # sampling_strategy: "first:50%" # since ov use end:20%, here we directly use all
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/magpie_pro_l3_80b_st_300000.json
+    # sampling_strategy: "first:50%" # since ov use end:20%, here we directly use all
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/magpie_pro_l3_80b_mt_300000_sp_token_fltd_299998.json
+    # sampling_strategy: "first:50%" # since ov use end:20%, here we directly use all
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/image_textualization_dataset_filtered.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/cambrian_filtered_gpt4vo_sp_token_fltd_max10k.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/sharegpt4o_dataset.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/ai2d_llava_format_2434_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/aokvqa_16539_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/chart2text_26961_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/chartqa_18265_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/clevr_70000_llava_format_fixed.json
+    sampling_strategy: "first:1%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/diagram_image_to_text_300_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/dvqa_200000_llava_format_fixed.json
+    sampling_strategy: "first:1%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/figureqa_100000_llava_format_fixed.json
+    sampling_strategy: "first:1%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/geomverse_9303_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/hateful_memes_8500_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/hitab_2500_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/iam_5663_fixed.json
+    sampling_strategy: "all"
+  # - json_path: ~/data/LLaVA-OV-Manager/stage2/json/raven_42000.json
+  #   sampling_strategy: "first:5%"
+    # https://huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data/discussions/11 need to further filter out bad samples
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/raven_42000_filtered_fixed.json
+    sampling_strategy: "first:5%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/iconqa_llava_format_27307_fixed.json
+    sampling_strategy: "first:5%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/infographic_vqa_2118_llava_format.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/intergps_1280_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/mapqa_37417_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/multihiertt_7619_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/rendered_text_10000_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/robut_sqa_8514_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/robut_wikisql_74989_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/robut_wtq_38246_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/screen2words_15730_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/scienceqa_llava_format_4976_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/tabmwp_22722_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/tallyqa_98680_llava_format_fixed.json
+    sampling_strategy: "first:10%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/st_vqa_17247_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/tqa_llava_format_27307_fixed.json
+    sampling_strategy: "first:5%"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/visual7w_llava_format_14366_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/visualmrc_3027_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/vqarad_313_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/vsr_2157_llava_format_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/vistext_9969_fixed.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/websight_10000_fixed.json
+    sampling_strategy: "all"
+
+# additional from onevision
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/VisualWebInstruct_filtered_263589.json
+    sampling_strategy: "all"
+  - json_path: ~/data/LLaVA-OV-Manager/stage2/json/MathV360K_PlotQA_5485.json
+    sampling_strategy: "all" # sampling_strategy: "first:10%" # ov use 10%, but considering that other MathV360K datasets use all in single-image stage, we use all here
+
+# cannot find
+  # - json_path: ~/data/LLaVA-OV-Manager/stage2/json/llava_wild_4v_39k.json # not released
+  #   sampling_strategy: "all"
+  # - json_path: ~/data/LLaVA-OV-Manager/stage2/json/llava_wild_4v_12k.json # not released
+  #   sampling_strategy: "all"
+  # - json_path: ~/data/LLaVA-OV-Manager/stage2/json/cambrian_filtered_gpt4vo_sp_token_fltd_max10k_checked.json # from one-vision stage
+  #   sampling_strategy: "all"
