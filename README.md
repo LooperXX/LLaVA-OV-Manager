@@ -6,6 +6,10 @@ This repo is the official `Pytorch` implementation of the paper:
 
 [Xiao Xu](https://looperxx.github.io/), [Libo Qin](https://faculty.csu.edu.cn/qinlibo/), [Wanxiang Che](http://ir.hit.edu.cn/~car/), [Min-Yen Kan](https://www.comp.nus.edu.sg/~kanmy).
 
+Under Review.
+
+[Paper](https://looperxx.github.io/files/Manager.pdf) | [Code](https://github.com/LooperXX/LLaVA-OV-Manager) | [Model](https://huggingface.co/LooperXX/ManagerTower)
+
 ## Abstract
 
 Two-Tower Vision--Language Models (VLMs) have demonstrated strong performance across various downstream VL tasks.
