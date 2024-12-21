@@ -38,7 +38,7 @@ You can download them from [here](https://huggingface.co/LooperXX/LLaVA-OV-Manag
 
 ## Deployment
 
-- Run [`setup.sh`](https://github.com/LooperXX/LLaVA-OV-Manager/setup.sh) to set up the environment, prepare the pre-trained models, data and our checkpoints.
+- Run [`setup.sh`](https://github.com/LooperXX/LLaVA-OV-Manager/blob/main/setup.sh) to set up the environment, prepare the pre-trained models, data and our checkpoints.
 - [Optional] We use [wandb](https://wandb.ai/) to track experiments! Please remember to run `wandb login` and paste your token before running the script.
 
 ## Training
