@@ -8,7 +8,20 @@ This repo is the official `Pytorch` implementation of the paper:
 
 Under Review.
 
-[Paper](https://looperxx.github.io/files/Manager.pdf) | [Code](https://github.com/LooperXX/LLaVA-OV-Manager) | [Model](https://huggingface.co/LooperXX/ManagerTower)
+[Paper](https://looperxx.github.io/files/Manager.pdf) | [Code](https://github.com/LooperXX/LLaVA-OV-Manager) | [Model](https://huggingface.co/LooperXX/LLaVA-OV-Manager)
+
+---
+
+> [!NOTE]
+> This paper is an extension of the following paper:
+> 
+> **ManagerTower: Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning**
+> 
+> [Xiao Xu](http://ir.hit.edu.cn/~xxu/), [Bei Li](https://libeineu.github.io/), [Chenfei Wu](https://chenfei-wu.github.io/), [Shao-Yen Tseng](https://www.shaoyen.me/), [Anahita Bhiwandiwalla](https://scholar.google.com/citations?user=N-Qoq1gAAAAJ&hl=en), [Shachar Rosenman](https://scholar.google.com/citations?user=-8JzBBEAAAAJ&hl=en), [Vasudev Lal](https://scholar.google.com/citations?user=Qbu4oKwAAAAJ&hl=en), [Wanxiang Che](http://ir.hit.edu.cn/~car/), [Nan Duan](https://nanduan.github.io/).
+> 
+> [ACL 2023 (Oral)](https://2023.aclweb.org/) | Association for Computational Linguistics
+> 
+> [Paper](https://aclanthology.org/2023.acl-long.811/) | [Arxiv](https://arxiv.org/abs/2306.00103) | [Model](https://huggingface.co/LooperXX/ManagerTower) | [Slides](http://looperxx.github.io/files/ManagerTower-ACL23-PPT-2023-06-EN-12min.pdf) | [Video(EN)](https://youtu.be/SOHprfiiClQ) | [Video(CN)](https://www.bilibili.com/video/BV17s4y1y7Ny) | [Blog(CN)](http://looperxx.github.io/blog/ManagerTower) | [Tweet(EN)](https://twitter.com/looperxx27/status/1678341890809401346)
 
 ## Abstract
 
